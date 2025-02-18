@@ -13,4 +13,5 @@
 <p>mosfet of width 0.315um</p>
 <p>voltage supply 1.8v</p>
 <p>1k resistor </p>
-
+## Dc Analysis
+<p>The DC analysis of a Common-Source (CS) amplifier involves determining the biasing conditions of the transistor without considering the AC input signal. The gate-source voltage (V_GS) is set to ensure the transistor operates in the active region, typically by using a biasing network. The drain-source voltage (V_DS) is chosen to ensure the transistor remains in the saturation region. The drain current (I_D) is determined using the MOSFET's characteristic equation, with the source often being at ground or a reference voltage for proper bias stability. The DC analysis helps set the operating point (Q-point) of the transistor, ensuring linear operation when the AC signal is applied.</p>
