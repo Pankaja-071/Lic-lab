@@ -1,4 +1,3 @@
-
 ## Lic-lab
 ## Experiment-1
 <p>Common Source amplifier analysis</p><br>
@@ -34,34 +33,34 @@ The calculated value does not match with simulated one so we will change the wid
     <td>I<sub>d</sub></td>
   </tr>
   <tr>
-    <td>180nm</td>
-    <td>0.1um</td>
+    <td>1900um</td>
+    <td>1500um</td>
     <td>10.92uA</td>
   </tr>
   <tr>
-    <td>180nm</td>
-    <td>0.15um</td>
-    <td>28.92uA</td>
+    <td>1900um</td>
+    <td>1650um</td>
+    <td>15.92uA</td>
   </tr>
   <tr>
-    <td>180nm</td>
-    <td>0.2um</td>
-    <td>38.89uA</td>
+    <td>1900um</td>
+    <td>1700um</td>
+    <td>17.89uA</td>
   </tr>
   <tr>
-    <td>180nm</td>
-    <td>0.25um</td>
-    <td>44.57uA</td>
+    <td>1900um</td>
+    <td>1750um</td>
+    <td>22.57uA</td>
   </tr>
   <tr>
-    <td>180nm</td>
-    <td>0.3um</td>
-    <td>49.2uA</td>
+    <td>1900um</td>
+    <td>1750um</td>
+    <td>25.2uA</td>
   </tr>
   <tr>
-    <td>180nm</td>
-    <td>0.38um</td>
-    <td>51.69uA</td>
+    <td>1900um</td>
+    <td>1800um</td>
+    <td>27.87uA</td>
   </tr>
 </table>
 <br>To check the mosfet is in saturation region 
@@ -70,7 +69,7 @@ The calculated value does not match with simulated one so we will change the wid
 1.8-0=1.8v
 <br>since V<sub>ds</sub>>V<sub>ov</sub>
 <br>It is in saturation region
-<br>The Q point is 1.8,51.69uA
+<br>The Q point is 1.8,27.87uA
 <br>
 
 ## Transient Analysis
@@ -85,7 +84,7 @@ The calculated value does not match with simulated one so we will change the wid
 <br>
 <br><p>From the graph we can calculate the gain of the circuit.</p>
 <br>A<sub>v</sub>sub>=V<sub>out</sub>/V<sub>in</sub>
-<br>A<sub>v</sub>=1.75v / 950mV
+<br>A<sub>v</sub>=1.772v / 950mV
 <br>A<sub>v</sub>=1.8V/V
 <br><p>which will match the theortical value calculated by A<sub>v</sub>=gmR<sub>d</sub></p>
 <br>Where gm=K<sub>n</sub>V<sub>ov</sub>
@@ -123,8 +122,8 @@ Mosfet width - 1.59um
 
 ![image](https://github.com/user-attachments/assets/140a5079-65e0-40ff-a7ea-25b9c473feb3)
 
-<V<sub>out</sub>=1.66V,<V<sub>in</sub>=0.6V,I<V<sub>d</sub>=55.5uA
-<br>Given power diddipation is 100uW, then the current will be I<sub>d</sub>=Power/Voltage=55.5uA.</br>
+<V<sub>out</sub>=1.26V,<V<sub>in</sub>=0.6V,I<V<sub>d</sub>=27.11uA
+<br>Given power dissipation is 100uW, then the current will be I<sub>d</sub>=Power/Voltage=27.11uA.</br>
 <table>
   <tr>
     <td>Width(um)</td>
@@ -132,33 +131,33 @@ Mosfet width - 1.59um
     <td>Vout(V)</td>
   </tr>
   <tr>
-    <td>0.2</td>
-    <td>26.7</td>
-    <td>1.56</td>
+    <td>0.5u</td>
+    <td>15.7</td>
+    <td>0.56</td>
   </tr>
   <tr>
-    <td>0.4</td>
-    <td>34.06</td>
-    <td>1.62</td>
+    <td>0.9u</td>
+    <td>18.06</td>
+    <td>0.962</td>
   </tr>
   <tr>
-    <td>0.6</td>
-    <td>42.8</td>
-    <td>1.64</td>
+    <td>1.1u</td>
+    <td>20.8</td>
+    <td>1.04</td>
   </tr>
   <tr>
-    <td>0.8</td>
-    <td>51.9</td>
-    <td>1.65</td>
+    <td>1.3u</td>
+    <td>525.9</td>
+    <td>1.15</td>
   </tr>
   <tr>
-    <td>0.88</td>
-    <td>55.6</td>
-    <td>1.66</td>
+    <td>1.59u</td>
+    <td>27.11u</td>
+    <td>1.26V</td>
   </tr>
 </table>
-<br>V<sub>ds</sub>=V<sub>d</sub>-V<sub>s</sub>=1.66-0=1.66V</br>
-<br>From the above calculation the operating point = (1.66V,55.6uA)</br>
+<br>V<sub>ds</sub>=V<sub>d</sub>-V<sub>s</sub>=1.26-0=1.26V</br>
+<br>From the above calculation the operating point = (1.26V,27.11uA)</br>
 
 ## Transient analysis
 <p>In the transient analysis of a PMOS active load amplifier, the focus is on the amplifier's response to time-varying input signals. The transient behavior is analyzed by considering how the signal fluctuates over time, affecting the voltages and currents through the transistors. The PMOS transistor, acting as an active load, provides a constant current that helps the circuit respond efficiently to input changes. The output signal is amplified based on the transistor's small-signal characteristics, with the PMOS load influencing the overall gain and bandwidth. Transient analysis helps assess the amplifier's dynamic performance, such as its ability to handle rapid signal variations without distortion.</p>
@@ -172,7 +171,7 @@ Mosfet width - 1.59um
 
 From the graph we can calculate the gain of the circuit</br>
 <br>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></br>
-<br>A<sub>v</sub>=1.7V/0.75V</br>
+<br>A<sub>v</sub>=1.26V/880mV</br>
 <br>A<sub>v</sub>=2.26V/V</br>
  ## AC Analysis
 <br><p></p>AC Analysis is the small signal analysis of the circuit.This is done to determine the gain of the amplifier circuit.This also helps to analysis the frequency response of the amplifier circuit.The gain is given by A<sub>v</sub>=-g<sub>m</sub>R<sub>d</sub></p>
