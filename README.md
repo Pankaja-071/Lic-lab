@@ -3,6 +3,9 @@
 <p>Common Source amplifier analysis</p><br>
 <p>This experiment shows the ac,dc and transient analysis of cs amplifier </p>
 
+## Abstract
+<p>In this experiment, we study a Common Source Amplifier in three ways. First, we do DC analysis to check how the circuit behaves with a steady DC voltage and determine its biasing conditions. Next, we perform AC analysis to see how the amplifier responds to different frequencies. Finally, we conduct transient analysis to observe how the amplifier amplifies signals over time and measure its gain and output.</p>
+
 ## Theory
 <p>  A Common-Source (CS) amplifier is a popular transistor amplifier configuration where the input is applied to the gate and the output is taken from the drain, with the source serving as the common terminal. It provides voltage amplification by modulating the drain current in response to changes in the gate-source voltage. The output is 180° out of phase with the input, and the amplifier has high input and output impedance.For a Common-Source (CS) amplifier to work correctly, the conditions are ,V <sub>GS</sub>≥V <sub>th</sub>(to turn the transistor on),V <sub>DS</sub>>V <sub> GS</sub><sub></sub> −V <sub>th</sub>(to keep the transistor in saturation),The input signal vin should be small for small-signal operation,Proper biasing and selection of 𝑅<sub>D</sub>are needed for stable operation and adequate voltage gain.
 </p>
@@ -189,3 +192,6 @@ From the graph we can calculate the gain of the circuit</br>
 <br><p>*DC Analysis*: It focuses on circuits powered by direct current sources, where voltage and current remain constant over time.Uses ohm's laws kirchhof's laws, and network theorems for solving circuit parameters</p>
 *Transient Analysis*: 
 Examines circuit behaviour during the transition from one steady state condition to another .Involves solving differential equations related to capacitors and inductors,which store and release energy.</p>
+
+# Conclusion
+<p>Our analysis confirmed that the amplifier works as expected, with proper biasing, frequency response, and signal amplification.</p>
