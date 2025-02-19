@@ -1,3 +1,4 @@
+![IMG_20250219_140908](https://github.com/user-attachments/assets/ce4477c9-161e-4a48-a80b-ffb7cf2f37a6)
 ## Lic-lab
 ## Experiment-1
 <p>Common Source amplifier analysis</p><br>
