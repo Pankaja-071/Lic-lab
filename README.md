@@ -80,4 +80,4 @@ The calculated value does not match with simulated one so we will change the wid
 <br><p>From graph we can clearly observe their is an 180 degree phase shift that is exibited by common souce configuration.</p>
 <br><p>Therefore we can conclude that its gain > 1 and has 180 degree phase shift therefore its an NMOS common source amplifier.</p>
 <br>*AC Analysis*</br>         
-
+.
