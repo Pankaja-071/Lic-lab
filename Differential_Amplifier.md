@@ -25,6 +25,20 @@
 #  Dc analysis
 <p>The DC analysis of a differential amplifier involves determining the biasing conditions of the circuit when no input signal is applied (i.e., with a constant DC voltage). This analysis helps set the operating point of the transistors, ensuring they work in their active region. Key parameters like the quiescent currents, voltages across components, and the overall stability of the circuit are determined. DC analysis is essential for setting the proper biasing to ensure the amplifier functions correctly when signals are later applied.</p>
 
+![image](https://github.com/user-attachments/assets/b6b21f34-1b04-48b2-9755-087bc9031496)
+![image](https://github.com/user-attachments/assets/fae7b6ca-9762-4fc1-ba98-4a00b1988f7a)
 
+<p>This  differential amplifgier circuit has two resistors each of 1.8k,two voltage source of 1.3v,vdd=2.5v</p>
+<p>Mosfet length= 180nm</p>
+<p>width=7.99um</p>
+<p>Q point is(1.4v,0.6mA)</p>
 
+# Transient analysis
+<p>Transient analysis of a differential amplifier studies how the circuit responds to changes in the input signal over time. It simulates the amplifier’s behavior when the input voltage suddenly changes, such as when a pulse or step input is applied. This analysis helps determine how quickly the amplifier can respond, including how long it takes to reach a stable output, known as rise time, fall time, and settling time. It ensures the amplifier can accurately amplify signals without distortion or delays when dealing with real-time, rapidly changing inputs.</p>
+
+# Ac analysis
+<p> AC analysis of a differential amplifier looks at how the amplifier responds to changing input signals, like alternating current (AC) signals. It helps determine how much the amplifier amplifies the input signal (gain) and how well it performs across different frequencies. This analysis shows the frequency response, such as the bandwidth and cutoff points, which indicates how effectively the amplifier handles high or low-frequency signals. Essentially, AC analysis helps ensure the amplifier works well with real-world, time-varying signals.</p>
+
+# Input swing
+<p>The input swing of a differential amplifier refers to the range of input voltages over which the amplifier can operate correctly without distortion. It represents the minimum and maximum input voltages that can be applied to the amplifier's inputs while still allowing it to produce an accurate output. If the input signal goes beyond this range, the amplifier may enter saturation or cutoff, causing the output to be distorted or clipped. The input swing is important for ensuring the amplifier can handle varying input signals without losing performance.</p>
  
