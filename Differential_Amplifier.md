@@ -144,6 +144,7 @@
 
  
 # Ac analysis
+<p>AC analysis of a differential amplifier focuses on evaluating its response to small input signals. It determines the differential gain, input and output impedance, and common-mode rejection ratio (CMRR). The amplifier amplifies the voltage difference between the two inputs while rejecting common-mode noise. Key factors influencing performance include the transistor’s transconductance and load resistance. The analysis also considers the frequency response, which is affected by parasitic capacitances. This helps in optimizing the amplifier’s performance in applications requiring noise immunity and precise signal amplification.
 <p>The dc offset value is 1.3v , amplitude is 50m,and frequency is 1KHZ</p>
 
 ![Screenshot 2025-03-05 210453](https://github.com/user-attachments/assets/3f5e50fe-8c97-4e81-bbe9-8f2a307d1278)
