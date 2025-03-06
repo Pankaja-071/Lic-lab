@@ -106,14 +106,8 @@
 
 <br><Also we can calculate the gain by formula A <sub>V</sub>=20log(vout/vin)=20log(1.434)=3.309 
 
-![pckt1 bw](https://github.com/user-attachments/assets/a171e3f5-99ff-4f59-9f25-f6e6b8f8e1b3)
 
-<br><p>Gain remains constant as their is no change in R<sub>d</sub>.From the above smulation the maximum frequency range is 7.899GHz and low frequency range is 100MHz.</p>
-
- <p>The bandwidth of this circuit is BW = f<sub>h</sub>-f<sub>l</sub></p>
- <p>BW= 7.899GHz-100mHz =7.899 GHz</p>
-<br>
-
+<br><p>Gain remains constant as their is no change in R<sub>d</sub>.
 
 # Input swing
 <p>The input swing of a differential amplifier refers to the range of input voltages over which the amplifier can operate correctly without distortion. It represents the minimum and maximum input voltages that can be applied to the amplifier's inputs while still allowing it to produce an accurate output. If the input signal goes beyond this range, the amplifier may enter saturation or cutoff, causing the output to be distorted or clipped. The input swing is important for ensuring the amplifier can handle varying input signals without losing performance.</p>
@@ -231,14 +225,21 @@
 #  Transient analysis
 <p>Transient analysis of Input</p>  
 
-![pckt3 tran in](https://github.com/user-attachments/assets/4206a789-5aaa-437c-95b6-78bc57df3bc4)
+![Screenshot 2025-03-06 225958](https://github.com/user-attachments/assets/2385728b-6154-41e2-aecf-a761b85ec570)
+
 <p>Transient analysis of output</p> 
 
-![pckt3 tran in](https://github.com/user-attachments/assets/e4d18705-01aa-4939-8482-23db2f61ff0d)
+![Screenshot 2025-03-06 230039](https://github.com/user-attachments/assets/f4c31aba-d6b3-4cd0-b5e3-cef06ca30e80)
+
 <p>Transient analysis of both input and output</p>
 
-![pckt3 tran inout](https://github.com/user-attachments/assets/67d47bbb-c433-4c0d-80cc-2af59e8209c9)
+![Screenshot 2025-03-06 230020](https://github.com/user-attachments/assets/4f4d629d-644d-45a6-bcdc-55a0488b4a21)
+
 <br>
+
+
+![Screenshot 2025-03-06 230359](https://github.com/user-attachments/assets/19fd50b1-8d03-40bf-92fd-121690196fc7)
+
 <p>From the above figure we can clearly observe ,the 180 degree phase shift between input and output</p>
 <p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
 <p>From graph we have v p-p voltages as</p>
@@ -250,15 +251,12 @@
 # Ac analysis
 <p>Ac analysis of the given circuit</p>
 
-![pckt3 ac analysis](https://github.com/user-attachments/assets/9465edec-d5f1-4b33-9328-c758e252cf75)
+![Screenshot 2025-03-06 230234](https://github.com/user-attachments/assets/a4810a1b-3913-4ff8-89e9-b1beaec7f0a3)
+
 <br>
 
-![pckt3 bandwidth](https://github.com/user-attachments/assets/2c18f362-6c13-4201-b991-abb7a72c80e6)<br>
-<p>Gain remains constant as their is no change in R<sub>d</sub>.From the above smulation the maximum frequency range is 17.203GHz and low frequency range is 100MHz.</p>
- <p>The bandwidth of this circuit is BW = f<sub>h</sub>-f<sub>l</sub></p>
- <p>BW= 17.203GHz-100mHz =17.203 GHz</p>
+![Screenshot 2025-03-06 230308](https://github.com/user-attachments/assets/dc3e6ca8-b934-4e3f-bf5f-2b97303ce317)
 
-![pckt3 maximum gain](https://github.com/user-attachments/assets/0e8a7fda-f473-49c0-8bb4-ba4dc2c91e81)
 <br>
 <p>From the above figure we can note the maximum gain in db </p>
 <p>A<sub>v</sub> in db=0.9db</p>
