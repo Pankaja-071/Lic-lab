@@ -165,6 +165,7 @@
 <p>In this circuit we have replaced the resistor with a nmos transistor and the voltage v<sub>b</sub>is 0.86v</p>
 <p> V<sub>b</sub>= V<sub>t</sub>+ V<sub>p</sub> </p>
 <p> V<sub>b</sub>= 0.36+0.5=0.86</p>
+
 ![pckt3](https://github.com/user-attachments/assets/176edeb5-d6b8-4635-b99f-d3711137a609)
 
 <p>This circuit consists of three nmos transistors ,2 resistors 3 voltage sources and vdd</p>
