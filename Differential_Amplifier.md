@@ -4,6 +4,8 @@
 <p>This experiment shows the ac,dc and transient analysis of Differential amplifier </p><br>
 <p>Question : Design Differential amplifier for the following specifications vdd=2.5v ,vicm=1.3v ,vocm=1.4v, vp=0.5v. Perform Dc analysis, transient analysis, frequency response and extract the required parameters.</p><br>
 
+![IMG_20250306_111047](https://github.com/user-attachments/assets/b9440e5f-9ce8-491f-911c-5ba7b42cfbde)
+
 ## Abstract
 <p> We need to design a differential amplifier that meets specific voltage and input signal criteria. The design process involves performing four essential analyses: DC Analysis to establish the amplifier's operating point, Transient Analysis to observe its response to varying signals, Frequency Response Analysis to evaluate its performance across a range of frequencies, and Parameter Extraction to collect critical information like gain and bandwidth. Additionally, we need to determine the input and output swing of the amplifier. The objective is to ensure the amplifier operates optimally within the defined specifications.
 </p>
@@ -161,7 +163,8 @@
 
 # circuit 3
 <p>In this circuit we have replaced the resistor with a nmos transistor and the voltage v<sub>b</sub>is 0.86v</p>
-
+<p> V<sub>b</sub>= V<sub>t</sub>+ V<sub>p</sub> </p>
+<p> V<sub>b</sub>= 0.36+0.5=0.86</p>
 ![pckt3](https://github.com/user-attachments/assets/176edeb5-d6b8-4635-b99f-d3711137a609)
 
 <p>This circuit consists of three nmos transistors ,2 resistors 3 voltage sources and vdd</p>
