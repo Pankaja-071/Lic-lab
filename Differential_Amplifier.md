@@ -1,5 +1,5 @@
 ## Lic-lab
-## Experiment-1
+## Experiment-3
 <p>Differential amplifier analysis</p><br>
 <p>This experiment shows the ac,dc and transient analysis of Differential amplifier </p><br>
 <p>Question : Design Differential amplifier for the following specifications vdd=2.5v ,vicm=1.3v ,vocm=1.4v, vp=0.5v. Perform Dc analysis, transient analysis, frequency response and extract the required parameters.</p><br>
@@ -9,8 +9,14 @@
 </p>
 
 ##Theory
-<p>A differential amplifier is an electronic device specifically designed to amplify the voltage difference between two input signals, providing high accuracy and noise immunity. It has two inputs: a non-inverting input and an inverting input. The amplifier boosts the voltage difference between these two inputs while rejecting any voltage that is common to both, referred to as the common-mode voltage. This ability to reject common-mode signals is quantified by the common-mode rejection ratio (CMRR), which measures the amplifier's effectiveness in ignoring noise or interference that affects both inputs equally. Differential amplifiers are widely used in applications such as signal processing, instrumentation, and communication systems, where it is essential to amplify weak signals in the presence of noise or other unwanted interference. By focusing only on the difference between the two inputs, differential amplifiers can effectively filter out external disturbances, making them invaluable in environments with high levels of electromagnetic interference. For example, in medical instrumentation like electrocardiogram (ECG) machines, differential amplifiers help isolate the small electrical signals from the heart while rejecting noise from other sources. Similarly, in communication systems, they ensure that the desired signal is amplified while minimizing the effect of common-mode noise, ensuring clear and reliable signal transmission.
+<p>A differential amplifier is an electronic device specifically designed to amplify the voltage difference between two input signals, providing high accuracy and noise immunity. It has two inputs: a non-inverting input and an inverting input. The amplifier boosts the voltage difference between these two inputs while rejecting any voltage that is common to both, referred to as the common-mode voltage. <br>
+ This ability to reject common-mode signals is quantified by the common-mode rejection ratio (CMRR), which measures the amplifier's effectiveness in ignoring noise or interference that affects both inputs equally. Differential amplifiers are widely used in applications such as signal processing, instrumentation, and communication systems, where it is essential to amplify weak signals in the presence of noise or other unwanted interference. By focusing only on the difference between the two inputs, differential amplifiers can effectively filter out external disturbances, making them invaluable in environments with high levels of electromagnetic interference. <br>
+ 
+ For example, in medical instrumentation like electrocardiogram (ECG) machines, differential amplifiers help isolate the small electrical signals from the heart while rejecting noise from other sources. Similarly, in communication systems, they ensure that the desired signal is amplified while minimizing the effect of common-mode noise, ensuring clear and reliable signal transmission.
 </p>
+
+![17412325438756253492796588430102](https://github.com/user-attachments/assets/a7f5255d-0e60-4c25-9ab6-ad3db0235aa2)
+
 <p>A differential amplifier amplifies the difference between two input voltages—V₁ (non-inverting) and V₂ (inverting)—and provides an output that is proportional to this difference. The key feature is its common-mode rejection ratio (CMRR), which quantifies how well the amplifier rejects signals that are common to both inputs. A high CMRR means the amplifier is effective at rejecting noise or interference that affects both inputs equally.</p>
 
 # circuit 1
