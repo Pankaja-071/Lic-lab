@@ -11,6 +11,7 @@
 </p>
 
 ##Theory
+
 <p>A differential amplifier is an electronic device specifically designed to amplify the voltage difference between two input signals, providing high accuracy and noise immunity. It has two inputs: a non-inverting input and an inverting input. The amplifier boosts the voltage difference between these two inputs while rejecting any voltage that is common to both, referred to as the common-mode voltage. <br>
  This ability to reject common-mode signals is quantified by the common-mode rejection ratio (CMRR), which measures the amplifier's effectiveness in ignoring noise or interference that affects both inputs equally. Differential amplifiers are widely used in applications such as signal processing, instrumentation, and communication systems, where it is essential to amplify weak signals in the presence of noise or other unwanted interference. By focusing only on the difference between the two inputs, differential amplifiers can effectively filter out external disturbances, making them invaluable in environments with high levels of electromagnetic interference. <br>
  
