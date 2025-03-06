@@ -93,12 +93,14 @@
 ![pckt1 max a](https://github.com/user-attachments/assets/26037b75-956b-4516-9a6c-354c266045f3)
 
 <br><p>From the above figure we can note the maximum gain in db </p>
-<p>A<sub>v</sub> in db=1.35db</p>
-<br>
+<p>A<sub>v</sub> in db=3.15db</p>
+
+<br><Also we can calculate the gain by formula A <sub>V</sub>=20log(vout/vin)=20log(1.434)=3.309 
 
 ![pckt1 bw](https://github.com/user-attachments/assets/a171e3f5-99ff-4f59-9f25-f6e6b8f8e1b3)
 
 <br><p>Gain remains constant as their is no change in R<sub>d</sub>.From the above smulation the maximum frequency range is 7.899GHz and low frequency range is 100MHz.</p>
+
  <p>The bandwidth of this circuit is BW = f<sub>h</sub>-f<sub>l</sub></p>
  <p>BW= 7.899GHz-100mHz =7.899 GHz</p>
 <br>
