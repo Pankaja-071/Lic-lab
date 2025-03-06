@@ -84,9 +84,9 @@
 <p>From the above figure we can clearly observe ,the 180 degree phase shift between input and output</p>
 <p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
 <p>From graph we have v p-p voltages as</p>
-<p>V<sub>in</sub>=1.34401-1.2557=0.08831</p>
-<p>V<sub>out</sub>=1.4737-1.347=0.1267</p>
-<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.1267/0.08831=1.434 V/V</p>
+<p>V<sub>in</sub>=1.34929-1.25104=0.09825</p>
+<p>V<sub>out</sub>=1.4805-1.3393=0.1412</p>
+<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.1412/0.09825=1.43715 V/V</p>
 <br>
 
 # Ac analysis
@@ -95,16 +95,16 @@
 <p>Ac analysis</p>
 <br>
 
-![Screenshot 2025-03-06 210600](https://github.com/user-attachments/assets/3df4ea2a-d4ad-475e-b719-7a1fa5cc09ce)
+![Screenshot 2025-03-06 233119](https://github.com/user-attachments/assets/4c56f174-2841-4e19-a8f5-3be83d6efa6e)
 
+![Screenshot 2025-03-06 233146](https://github.com/user-attachments/assets/014987a7-4eda-429a-acd6-a3504e13b948)
 
-![Screenshot 2025-03-06 210630](https://github.com/user-attachments/assets/cb6f9fbd-b577-4d03-9b02-8fead412bb33)
 
 
 <br><p>From the above figure we can note the maximum gain in db </p>
 <p>A<sub>v</sub> in db=3.15db</p>
 
-<br><Also we can calculate the gain by formula A <sub>V</sub>=20log(vout/vin)=20log(1.434)=3.309 
+<br><Also we can calculate the gain by formula A <sub>V</sub>=20log(vout/vin)=20log(1.43715)=3.15 v/v
 
 
 <br><p>Gain remains constant as their is no change in R<sub>d</sub>.
@@ -112,12 +112,22 @@
 # Input swing
 <p>The input swing of a differential amplifier refers to the range of input voltages over which the amplifier can operate correctly without distortion. It represents the minimum and maximum input voltages that can be applied to the amplifier's inputs while still allowing it to produce an accurate output. If the input signal goes beyond this range, the amplifier may enter saturation or cutoff, causing the output to be distorted or clipped. The input swing is important for ensuring the amplifier can handle varying input signals without losing performance.</p>
 <p>The DC offset here is done by taking the average of V<sub>in min</sub> and V<sub>in max</sub></p>
-<p>V<sub>in min</sub>=V<sub>t N</sub> + V<sub>p</sub></p>
-<p>V<sub>in max</sub>=V<sub>dd</sub>-R<sub>d</sub>I<sub>ss</sub>/2 = V<sub>t</sub></p><br>
+<p>V<sub>in cm_ min</sub>=V<sub>t N</sub> + V<sub>p</sub> = 0.36+0.44 = 0.8 </p>
+<p>V<sub>in cm_max</sub>=V<sub>dd</sub>-R<sub>d</sub>I<sub>ss</sub>/2 +V<sub>t</sub>=2.5+(1.2m*1.82k)/2+0.36 = 1.768</p><br>
+<p>  V<sub>in cm</sub>=( V<sub>in cm_ min</sub>+V<sub>in cm_ max)/2= 1.264</sub></p>
+<br>
+<p>V<sub>o cm_ min</sub>=V<sub>ov1</sub>+V<sub>ov2=0.88</sub></p>
+<p>V<sub>o cm_ max</sub>=VDD-I<sub>d</sub>*R<sub>d=0</sub>=2.5-(0.6m*1.82k)=1.408</p>
+<p>  V<sub>o cm</sub>=( V<sub>o cm_ min</sub>+V<sub>o cm_ max)/2= 1.144</sub></p>
+<br>
+<br>
+
+<p>Input and output swing of mos1</p>
 
 ![Screenshot 2025-03-06 211118](https://github.com/user-attachments/assets/bc0fd866-a672-497c-b19a-af65e6e1ff00)
-
 <br>
+<br>
+<p>Input and output swing of both mos</p>
 
 ![Screenshot 2025-03-06 211225](https://github.com/user-attachments/assets/f79ba66b-e04a-49de-bbfa-8e6439c228cb)
 
