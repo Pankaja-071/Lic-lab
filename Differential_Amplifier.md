@@ -212,7 +212,7 @@
 <p>From graph we have v p-p voltages as</p>
 <p>V<sub>in</sub>=1.34466-1.25634=0.08832</p>
 <p>V<sub>out</sub>=1.41159-1.389675=0.021915</p>
-<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.012915/0.08831=0.2481 V/V</p>
+<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.08832/0.021915=4.029 V/V</p>
 <br>
 
 # Ac analysis
