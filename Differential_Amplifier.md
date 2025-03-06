@@ -23,7 +23,8 @@
 <p>A differential amplifier amplifies the difference between two input voltages—V₁ (non-inverting) and V₂ (inverting)—and provides an output that is proportional to this difference. The key feature is its common-mode rejection ratio (CMRR), which quantifies how well the amplifier rejects signals that are common to both inputs. A high CMRR means the amplifier is effective at rejecting noise or interference that affects both inputs equally.</p>
 
 # circuit 1
-![pckt 1](https://github.com/user-attachments/assets/ded18a03-5936-4a46-af1f-4a0cfb53b90a)
+![Screenshot 2025-03-06 210045](https://github.com/user-attachments/assets/ed1a69bd-722b-4447-a0e2-663c1433e253)
+
 
 <p>This circuit consists of two nmos transistors ,3 resistors 2 voltage sources and vdd</p>
 <p>mosfets of length 180nm</p>
@@ -41,9 +42,11 @@
 #  Dc analysis
 <p>The DC analysis of a differential amplifier involves determining the biasing conditions of the circuit when no input signal is applied (i.e., with a constant DC voltage). This analysis helps set the operating point of the transistors, ensuring they work in their active region. Key parameters like the quiescent currents, voltages across components, and the overall stability of the circuit are determined. DC analysis is essential for setting the proper biasing to ensure the amplifier functions correctly when signals are later applied.</p>
 
-![pckt1 dc op](https://github.com/user-attachments/assets/a01ece25-dafc-42d4-9855-e7be7e9268d0)
+![Screenshot 2025-03-06 210137](https://github.com/user-attachments/assets/d37266d9-fb55-4509-8a5c-2b52124f7953)
 
-![pckt1 lenwid](https://github.com/user-attachments/assets/b01497d5-ae9d-4002-883a-92358a6feba8)
+
+![Screenshot 2025-03-06 210103](https://github.com/user-attachments/assets/4df2c097-f7f3-464d-aa31-0ea4c6387eaf)
+
 
 
 <br>
@@ -53,7 +56,8 @@
 <p>Q point is(1.4v,0.6mA)</p>
 <br>
 
-![pckt1 additional](https://github.com/user-attachments/assets/eeaf0fc5-46ed-46d4-8636-452dc56fd76b)
+![Screenshot 2025-03-06 210206](https://github.com/user-attachments/assets/fe414bee-0801-4095-a4b7-43f1ccb94c16)
+
 <p>The above image shows the other parameters of the mosfet like v<sub>gs</sub>,v<sub>t</sub> ,g<sub>m</sub> v<sub>ds</sub> and others</p>
 <br>
 
@@ -63,15 +67,18 @@
 <p>Transient analysis of Input</p>  
 <br>
 
-![pckt1 tran ip](https://github.com/user-attachments/assets/26552f13-e8d7-4c5e-9983-44e736b249b4)
+![Screenshot 2025-03-06 210358](https://github.com/user-attachments/assets/a8a39f5e-5de5-4f91-b641-401e063ee6ef)
+
 <p>Transient analysis of output</p>  
 <br>
 
-![pckt1 tran op](https://github.com/user-attachments/assets/73608594-950a-4d91-b11f-62a14d20c414)
+![Screenshot 2025-03-06 210341](https://github.com/user-attachments/assets/88039cb6-b2a4-42cc-ba47-1309845bd121)
+
 <p>Transient analysis of both input and output</p>
 <br>
 
-![pckt 1 tran inout](https://github.com/user-attachments/assets/c587ccf4-30ed-4798-bcb1-2e81aee51438)
+![Screenshot 2025-03-06 210415](https://github.com/user-attachments/assets/1d00df0a-6a68-4632-a15e-83c2bf0d0395)
+
 
 <br>
 <p>From the above figure we can clearly observe ,the 180 degree phase shift between input and output</p>
@@ -88,9 +95,11 @@
 <p>Ac analysis</p>
 <br>
 
-![pckt1 ac](https://github.com/user-attachments/assets/109a1cfb-e9f3-4c64-b0b3-60b38fba057a)
+![Screenshot 2025-03-06 210600](https://github.com/user-attachments/assets/3df4ea2a-d4ad-475e-b719-7a1fa5cc09ce)
 
-![pckt1 max a](https://github.com/user-attachments/assets/26037b75-956b-4516-9a6c-354c266045f3)
+
+![Screenshot 2025-03-06 210630](https://github.com/user-attachments/assets/cb6f9fbd-b577-4d03-9b02-8fead412bb33)
+
 
 <br><p>From the above figure we can note the maximum gain in db </p>
 <p>A<sub>v</sub> in db=3.15db</p>
@@ -111,12 +120,19 @@
 <p>The DC offset here is done by taking the average of V<sub>in min</sub> and V<sub>in max</sub></p>
 <p>V<sub>in min</sub>=V<sub>t N</sub> + V<sub>p</sub></p>
 <p>V<sub>in max</sub>=V<sub>dd</sub>-R<sub>d</sub>I<sub>ss</sub>/2 = V<sub>t</sub></p><br>
+
+![Screenshot 2025-03-06 211118](https://github.com/user-attachments/assets/bc0fd866-a672-497c-b19a-af65e6e1ff00)
+
 <br>
+
+![Screenshot 2025-03-06 211225](https://github.com/user-attachments/assets/f79ba66b-e04a-49de-bbfa-8e6439c228cb)
+
 
 # circuit 2
 <p>In this circuit we have replaced the resistor with a current source with I<sub>ss</sub>=1.2mA</p>
 
-![Screenshot 2025-03-05 185934](https://github.com/user-attachments/assets/230a129f-a325-4b58-8147-e5248e454678)
+![Screenshot 2025-03-06 211446](https://github.com/user-attachments/assets/6f6d8db5-a8c0-4ff2-862f-411778dfc7cf)
+
 
 <p>This circuit consists of two nmos transistors ,2 resistors 2 voltage sources ,a current source and vdd</p>
 <p>mosfets of length 180nm</p>
@@ -128,16 +144,18 @@
 
 #  Dc analysis
 
-![Screenshot 2025-03-05 185934](https://github.com/user-attachments/assets/3834dbe1-7f16-4d25-87a4-3baff89c6d34)<br>
+![Screenshot 2025-03-06 211510](https://github.com/user-attachments/assets/53c4cb26-8c7c-46c7-835d-8d14ddd8841a)
 
-![Screenshot 2025-03-05 173453](https://github.com/user-attachments/assets/b861e2eb-5e05-49c7-b414-4a8a49b4c6e2)<br>
+![Screenshot 2025-03-06 211624](https://github.com/user-attachments/assets/c83c7345-3bff-4cfc-a7bb-f63d1fc1858a)
+<br>
 <br><p>This  differential amplifier circuit has two resistors each of 1.827k,two voltage source of 1.3v,vdd=2.5v</p>
 <p>Mosfet length= 180nm</p>
 <p>width=7.9um</p>
 <p>Q point is(1.4v,0.6mA)</p>
 <br>
 
-![Screenshot 2025-03-05 190025](https://github.com/user-attachments/assets/dcbcb1b7-49fe-4434-b66b-57572a8bf1ab)<br>
+![Screenshot 2025-03-06 211549](https://github.com/user-attachments/assets/07e96428-e6e0-4a21-ba22-7464656bf6e4)
+<br>
 
 
 
@@ -145,11 +163,15 @@
  
  <p>Transient analysis of Input</p>  
  
- ![Screenshot 2025-03-05 204422](https://github.com/user-attachments/assets/3434631d-1e61-4e29-a4af-4addb5ecba03)
+ ![Screenshot 2025-03-06 211801](https://github.com/user-attachments/assets/0f30f996-9059-425a-9094-c8c3951bb267)
+
  <p>Transient analysis of output</p>  
  
- ![Screenshot 2025-03-05 204340](https://github.com/user-attachments/assets/093c8c3b-f4df-4ba7-a558-d17492e86cdf)
+ ![Screenshot 2025-03-06 211744](https://github.com/user-attachments/assets/8fd9f8ab-bf2e-4c1c-8dfe-b95a5e0d8a54)
  <br>
+
+ ![Screenshot 2025-03-06 211819](https://github.com/user-attachments/assets/a1f0fa26-d33d-4603-9078-6881282751d5)
+
  <p>From the above figure we can clearly observe ,the 180 degree phase shift between input and output</p>
 <p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
 <p>From graph we have v p-p voltages as</p>
@@ -163,10 +185,17 @@
 <p>AC analysis of a differential amplifier focuses on evaluating its response to small input signals. It determines the differential gain, input and output impedance, and common-mode rejection ratio (CMRR). The amplifier amplifies the voltage difference between the two inputs while rejecting common-mode noise. Key factors influencing performance include the transistor’s transconductance and load resistance. The analysis also considers the frequency response, which is affected by parasitic capacitances. This helps in optimizing the amplifier’s performance in applications requiring noise immunity and precise signal amplification.
 <p>The dc offset value is 1.3v , amplitude is 50m,and frequency is 1KHZ</p>
 
-![Screenshot 2025-03-05 210453](https://github.com/user-attachments/assets/3f5e50fe-8c97-4e81-bbe9-8f2a307d1278)
+![Screenshot 2025-03-06 212046](https://github.com/user-attachments/assets/2f4b3f72-3e56-496e-b167-ba0f1f60a60b)
+![Screenshot 2025-03-06 212107](https://github.com/user-attachments/assets/582a1a67-4886-46db-8baf-e8ebf83ac109)
+
 
 <br>
 <br>
+
+# input and output swing
+
+![Screenshot 2025-03-06 212209](https://github.com/user-attachments/assets/fabe014f-c1b7-4380-a2de-0b239c4cf6c9)
+![Screenshot 2025-03-06 212242](https://github.com/user-attachments/assets/13d5e36b-5778-4d22-9e8a-0be19f68c47a)
 
 
 # circuit 3
@@ -174,7 +203,7 @@
 <p> V<sub>b</sub>= V<sub>t</sub>+ V<sub>p</sub> </p>
 <p> V<sub>b</sub>= 0.36+0.5=0.86</p>
 
-![pckt3](https://github.com/user-attachments/assets/176edeb5-d6b8-4635-b99f-d3711137a609)
+![Screenshot 2025-03-06 203603](https://github.com/user-attachments/assets/8a3f6595-fb82-4d58-a2da-c995627d139f)
 
 <p>This circuit consists of three nmos transistors ,2 resistors 3 voltage sources and vdd</p>
 <p>mosfets of length 180nm</p>
@@ -183,13 +212,16 @@
 <p>vdd of 2.5v</p>
 <p>vicm of each 1.3v</p>
 
-![pckt 3 additional](https://github.com/user-attachments/assets/2171d6fd-15be-4e97-80e7-fed8455a0d96)
+![Screenshot 2025-03-06 204023](https://github.com/user-attachments/assets/4c64c660-ac15-406b-9db5-e3098684dcd7)
 
 
 #  Dc analysis
 
-![pckt3 dc op](https://github.com/user-attachments/assets/532c45f3-65bb-4d77-8c4c-3f9b3070755f)
-![pckt3 lewe](https://github.com/user-attachments/assets/240b26fc-4357-47f9-b891-4631f57f7f0d)
+![Screenshot 2025-03-06 203939](https://github.com/user-attachments/assets/db462d07-73b9-46ac-8c33-6b8f88335ee2)
+
+![Screenshot 2025-03-06 204045](https://github.com/user-attachments/assets/5e629abf-c96c-453a-bd25-e682cfcc24bc)
+
+
 
 <p>This  differential amplifgier circuit has two resistors each of 1.81k,three voltage source,vdd=2.5v</p>
 <p>Mosfet length= 180nm</p>
@@ -231,6 +263,13 @@
 <p>From the above figure we can note the maximum gain in db </p>
 <p>A<sub>v</sub> in db=0.9db</p>
 <br>
+
+# inpit and output swing
+
+![Screenshot 2025-03-06 205116](https://github.com/user-attachments/assets/7bb56303-534d-4043-a585-281416fcf1c9)
+![Screenshot 2025-03-06 205559](https://github.com/user-attachments/assets/f596d9d6-4dc1-4da4-b945-b3dc6fc864b1)
+
+
 
 # Result
 <p>The result of a differential amplifier is the amplified difference between the two input signals. The output voltage (V<sub>out</sub>) is calculated as:
