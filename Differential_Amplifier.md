@@ -10,7 +10,7 @@
 <p> We need to design a differential amplifier that meets specific voltage and input signal criteria. The design process involves performing four essential analyses: DC Analysis to establish the amplifier's operating point, Transient Analysis to observe its response to varying signals, Frequency Response Analysis to evaluate its performance across a range of frequencies, and Parameter Extraction to collect critical information like gain and bandwidth. Additionally, we need to determine the input and output swing of the amplifier. The objective is to ensure the amplifier operates optimally within the defined specifications.
 </p>
 
-##Theory
+## Theory
 
 <p>A differential amplifier is an electronic device specifically designed to amplify the voltage difference between two input signals, providing high accuracy and noise immunity. It has two inputs: a non-inverting input and an inverting input. The amplifier boosts the voltage difference between these two inputs while rejecting any voltage that is common to both, referred to as the common-mode voltage. <br>
  This ability to reject common-mode signals is quantified by the common-mode rejection ratio (CMRR), which measures the amplifier's effectiveness in ignoring noise or interference that affects both inputs equally. Differential amplifiers are widely used in applications such as signal processing, instrumentation, and communication systems, where it is essential to amplify weak signals in the presence of noise or other unwanted interference. By focusing only on the difference between the two inputs, differential amplifiers can effectively filter out external disturbances, making them invaluable in environments with high levels of electromagnetic interference. <br>
@@ -32,6 +32,11 @@
 <p>rss of 416.66 ohm</p>
 <p>vdd of 2.5v</p>
 <p>vicm of each 1.3v</p>
+
+![IMG_20250306_113636](https://github.com/user-attachments/assets/af6a8f49-7887-4ae5-86e3-9c5ef91b6550)
+<p> We can observe that the circuit is in saturation region</p>
+
+
 
 #  Dc analysis
 <p>The DC analysis of a differential amplifier involves determining the biasing conditions of the circuit when no input signal is applied (i.e., with a constant DC voltage). This analysis helps set the operating point of the transistors, ensuring they work in their active region. Key parameters like the quiescent currents, voltages across components, and the overall stability of the circuit are determined. DC analysis is essential for setting the proper biasing to ensure the amplifier functions correctly when signals are later applied.</p>
@@ -247,7 +252,6 @@ This makes the differential amplifier particularly useful for weak signal amplif
 
 # Inference
 <p>In the comparative analysis of the three differential amplifier circuits, the choice of tail current implementation significantly influences performance. The first circuit, utilizing a resistor R<sub>ss</sub>, exhibits sensitivity to power supply variations and transistor mismatches, leading to potential instability in the bias current and reduced common-mode rejection ratio. This is due to the resistor's limited ability to maintain a constant current under varying conditions. In contrast, the second circuit employs an ideal current source, ensuring a stable bias current that is largely unaffected by external fluctuations, thereby enhancing both stability and CMRR. The third circuit replaces R<sub>ss</sub> with an NMOS transistor configured as a current source with a gate voltage V<sub>b</sub></sub> of 0.76 V. This active current source provides improved performance over the resistor by offering higher output impedance, which contributes to better bias stability and CMRR. However, it may still be susceptible to variations due to transistor parameters and temperature changes. Overall, transitioning from a passive resistor to active current sources in differential amplifier designs leads to enhanced performance, with ideal current sources offering the most significant improvements. </p>
-
 
 
 
