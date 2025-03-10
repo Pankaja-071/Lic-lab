@@ -141,7 +141,7 @@
 <p>This circuit consists of two nmos transistors ,2 resistors 2 voltage sources ,a current source and vdd</p>
 <p>mosfets of length 180nm</p>
 <p>mosfets of width 1um</p>
-<p>rd of 1.827k ohm</p>
+<p>rd of 1.83k ohm</p>
 <p>Iss of 1.2mA</p>
 <p>vdd of 2.5v</p>
 <p>vicm of each 1.3v</p>
@@ -152,9 +152,9 @@
 
 ![Screenshot 2025-03-06 211624](https://github.com/user-attachments/assets/c83c7345-3bff-4cfc-a7bb-f63d1fc1858a)
 <br>
-<br><p>This  differential amplifier circuit has two resistors each of 1.827k,two voltage source of 1.3v,vdd=2.5v</p>
+<br><p>This  differential amplifier circuit has two resistors each of 1.83k,two voltage source of 1.3v,vdd=2.5v</p>
 <p>Mosfet length= 180nm</p>
-<p>width=7.9um</p>
+<p>width=7.918um</p>
 <p>Q point is(1.4v,0.6mA)</p>
 <br>
 
