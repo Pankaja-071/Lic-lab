@@ -258,9 +258,9 @@
 <p>From the above figure we can clearly observe ,the 180 degree phase shift between input and output</p>
 <p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
 <p>From graph we have v p-p voltages as</p>
-<p>V<sub>in</sub>=1.34466-1.25634=0.08832</p>
-<p>V<sub>out</sub>=1.41159-1.389675=0.021915</p>
-<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.08832/0.021915=4.029 V/V</p>
+<p>V<sub>in</sub>=1.708979-1.0917289=0.6172561</p>
+<p>V<sub>out</sub>=1.349713-1.25023=0.099483</p>
+<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.099483/0.61725=6.204638V/V</p>
 <br>
 
 # Ac analysis
@@ -272,12 +272,13 @@
 
 ![Screenshot 2025-03-06 230308](https://github.com/user-attachments/assets/dc3e6ca8-b934-4e3f-bf5f-2b97303ce317)
 
-<br>
-<p>From the above figure we can note the maximum gain in db </p>
-<p>A<sub>v</sub> in db=0.9db</p>
-<br>
+<br><p>From the above figure we can note the maximum gain in db </p>
+<p>A<sub>v</sub> in db=16.005db</p>
 
-# inpit and output swing
+<br><Also we can calculate the gain by formula A <sub>V</sub>=20log(vout/vin)=20log(6.20463)=15.8543 v/v
+
+
+# input and output swing
 
 ![Screenshot 2025-03-06 205116](https://github.com/user-attachments/assets/7bb56303-534d-4043-a585-281416fcf1c9)
 ![Screenshot 2025-03-06 205559](https://github.com/user-attachments/assets/f596d9d6-4dc1-4da4-b945-b3dc6fc864b1)
