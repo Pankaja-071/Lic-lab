@@ -179,9 +179,9 @@
  <p>From the above figure we can clearly observe ,the 180 degree phase shift between input and output</p>
 <p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub></p>
 <p>From graph we have v p-p voltages as</p>
-<p>V<sub>in</sub>=1.3495-1.212=0.1375</p>
-<p>V<sub>out</sub>=1.4080031-1.4079965=0.0000066</p>
-<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.0000066/0.13495=0.0074 V/V</p>
+<p>V<sub>in</sub>=1.349652-1.25125=0.14</p>
+<p>V<sub>out</sub>1.63253-1.17119=0.46</p>
+<p>A<sub>v</sub>=V<sub>out</sub>/V<sub>in</sub>=0.46/0.14=3.29 V/V</p>
 <br>
 
  
@@ -191,6 +191,11 @@
 
 ![Screenshot 2025-03-06 212046](https://github.com/user-attachments/assets/2f4b3f72-3e56-496e-b167-ba0f1f60a60b)
 ![Screenshot 2025-03-06 212107](https://github.com/user-attachments/assets/582a1a67-4886-46db-8baf-e8ebf83ac109)
+<br><p>From the above figure we can note the maximum gain in db </p>
+<p>A<sub>v</sub> in db=13.41db</p>
+
+<br><Also we can calculate the gain by formula A <sub>V</sub>=20log(vout/vin)=20log(3.29)=10.33 v/v
+
 
 
 <br>
