@@ -96,6 +96,7 @@
 <br>
 
 ![Screenshot 2025-03-06 233119](https://github.com/user-attachments/assets/4c56f174-2841-4e19-a8f5-3be83d6efa6e)
+<p>maximum gain</p>
 
 ![Screenshot 2025-03-06 233146](https://github.com/user-attachments/assets/014987a7-4eda-429a-acd6-a3504e13b948)
 
@@ -202,8 +203,11 @@
 <br>
 
 # input and output swing
+<p>Input and output swing of mos1</p>
 
 ![Screenshot 2025-03-06 212209](https://github.com/user-attachments/assets/fabe014f-c1b7-4380-a2de-0b239c4cf6c9)
+<p>Input and output swing of both mosfet</p>
+
 ![Screenshot 2025-03-06 212242](https://github.com/user-attachments/assets/13d5e36b-5778-4d22-9e8a-0be19f68c47a)
 
 
@@ -279,8 +283,12 @@
 
 
 # input and output swing
+<p>Input and output swing of mos1</p>
 
 ![Screenshot 2025-03-06 205116](https://github.com/user-attachments/assets/7bb56303-534d-4043-a585-281416fcf1c9)
+
+<p>Input and output swing of both mosfet</p>
+
 ![Screenshot 2025-03-06 205559](https://github.com/user-attachments/assets/f596d9d6-4dc1-4da4-b945-b3dc6fc864b1)
 
 
@@ -306,7 +314,8 @@ This makes the differential amplifier particularly useful for weak signal amplif
 <br>
 
 # Inference
-<p>In the comparative analysis of the three differential amplifier circuits, the choice of tail current implementation significantly influences performance. The first circuit, utilizing a resistor R<sub>ss</sub>, exhibits sensitivity to power supply variations and transistor mismatches, leading to potential instability in the bias current and reduced common-mode rejection ratio. This is due to the resistor's limited ability to maintain a constant current under varying conditions. In contrast, the second circuit employs an ideal current source, ensuring a stable bias current that is largely unaffected by external fluctuations, thereby enhancing both stability and CMRR. The third circuit replaces R<sub>ss</sub> with an NMOS transistor configured as a current source with a gate voltage V<sub>b</sub></sub> of 0.76 V. This active current source provides improved performance over the resistor by offering higher output impedance, which contributes to better bias stability and CMRR. However, it may still be susceptible to variations due to transistor parameters and temperature changes. Overall, transitioning from a passive resistor to active current sources in differential amplifier designs leads to enhanced performance, with ideal current sources offering the most significant improvements. </p>
+<p>In the comparative analysis of the three differential amplifier circuits, the choice of tail current implementation significantly influences performance. The first circuit, utilizing a resistor R<sub>ss</sub>, exhibits sensitivity to power supply variations and transistor mismatches, leading to potential instability in the bias current and reduced common-mode rejection ratio. This is due to the resistor's limited ability to maintain a constant current under varying conditions. In contrast, the second circuit employs an ideal current source, ensuring a stable bias current that is largely unaffected by external fluctuations, thereby enhancing both stability and CMRR.
+ <br>The third circuit replaces R<sub>ss</sub> with an NMOS transistor configured as a current source with a gate voltage V<sub>b</sub></sub> of 0.76 V. This active current source provides improved performance over the resistor by offering higher output impedance, which contributes to better bias stability and CMRR. However, it may still be susceptible to variations due to transistor parameters and temperature changes. Overall, transitioning from a passive resistor to active current sources in differential amplifier designs leads to enhanced performance, with ideal current sources offering the most significant improvements. </p>
 
 
 
