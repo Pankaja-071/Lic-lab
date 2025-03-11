@@ -311,8 +311,23 @@ In a practical scenario:
 - If both inputs have the same voltage (i.e., no difference), the output will be zero.
   
 This makes the differential amplifier particularly useful for weak signal amplification in the presence of noise, such as in instrumentation and communication systems.</p>
-<br>
+<br><br>
+<p>1st Circuit
+- DC analysis confirms MOSFET operation is in saturation .  <br>
+- Transient response demonstrates proper differential operation. <br> 
+- AC analysis reveals moderate gain and limited common-mode rejection.  <br></p>
+<p>
+2nd Circuit
+- Replacing the resistor with a current source improves bias stability.  <br>
+- The transient response is more stable and symmetrical  <br>
+- AC analysis shows the higher gain and increased bandwidth compared to Circuit-1.  <br></p>
+<p>. 
+3rd Circuit
+- DC analysis of circuit 3 shows that the MOSFET-based current source effectively regulates current.  <br>
+- Transient response is more accurate and stable.  <br>
+- AC analysis shows higher gain and improved frequency response.  <br></p>
 
+ 
 # Inference
 <p>In the comparative analysis of the three differential amplifier circuits, the choice of tail current implementation significantly influences performance. The first circuit, utilizing a resistor R<sub>ss</sub>, exhibits sensitivity to power supply variations and transistor mismatches, leading to potential instability in the bias current and reduced common-mode rejection ratio. This is due to the resistor's limited ability to maintain a constant current under varying conditions. In contrast, the second circuit employs an ideal current source, ensuring a stable bias current that is largely unaffected by external fluctuations, thereby enhancing both stability and CMRR.
  <br>The third circuit replaces R<sub>ss</sub> with an NMOS transistor configured as a current source with a gate voltage V<sub>b</sub></sub> of 0.76 V. This active current source provides improved performance over the resistor by offering higher output impedance, which contributes to better bias stability and CMRR. However, it may still be susceptible to variations due to transistor parameters and temperature changes. Overall, transitioning from a passive resistor to active current sources in differential amplifier designs leads to enhanced performance, with ideal current sources offering the most significant improvements. </p>
