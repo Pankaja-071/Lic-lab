@@ -49,6 +49,9 @@
 
 ## AC Analysis
 <p>The AC analysis of a current mirror focuses on its small-signal behavior, particularly output impedance and frequency response. Ideally, the output impedance should be high for effective current mirroring, but practical limitations like channel length modulation reduce it. At higher frequencies, parasitic capacitances, such as gate-drain and drain-substrate capacitances, introduce phase shifts and affect stability. These factors limit the bandwidth and accuracy of current mirroring. To improve AC performance, techniques like cascode configurations or gain-boosted mirrors are used to increase output impedance and minimize frequency-dependent distortions.</p>
+<p>The AC analysis of a 1:1 current mirror circuit focuses on understanding the small-signal behavior and the circuit’s response to small variations in the input signal while maintaining the DC operating point. In this analysis, the primary goal is to see how accurately the output current mirrors the reference current and to examine the frequency response and small-signal characteristics.
+
+For a 1:1 current mirror, both transistors are designed to be identical, meaning the output current should ideally match the reference current. The circuit’s small-signal parameters, such as transconductance (𝑔m ) and output conductance (g ds ), determine how the circuit reacts to small variations in the input signal.</p>
 
 ![p1 c1 1 ac analysis](https://github.com/user-attachments/assets/d4c72c82-aa2c-4363-8d79-32b9057f7d6a)<br><br>
 ![p1 c1 1 max](https://github.com/user-attachments/assets/4393ee65-64c4-43b6-b3a2-5abdcc3d6df2)
@@ -73,8 +76,8 @@
   <td>55</td>
   <td>101</td>
   <td>0.27</td>
-  <td>0.27032</td>
-  <td>0.27032</td>
+  <td>0.270332</td>
+  <td>0.270332</td>
  </tr>
  <tr>
   <td>55</td>
@@ -114,8 +117,8 @@
    <td>55</td>
    <td>190</td>
    <td>0.27</td>
-   <td>0.2703</td>
-   <td>0.2703</td>
+   <td>0.270873</td>
+   <td>0.270873</td>
  </tr>
  <tr>
   <td>55</td>
@@ -156,8 +159,8 @@
    <td>55</td>
    <td>227</td>
    <td>0.27</td>
-  <td>0.27002</td>
-  <td>0.27002</td>
+  <td>0.270792</td>
+  <td>0.270792</td>
  </tr>
  <tr>
   <td>55</td>
@@ -245,9 +248,9 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
   <td>55</td>
    <td>110</td>
    <td>110</td>
-   <td>0.16</td>
-  <td>0.312</td>
-  <td>0.312</td>
+   <td>0.27</td>
+  <td>0.3736</td>
+  <td>0.3736</td>
  </tr>
 <tr>
  <td>55</td>
@@ -308,9 +311,9 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
   <td>55</td>
    <td>110</td>
    <td>200</td>
-   <td>0.16</td>
-  <td>0.3027</td>
-  <td>0.3027</td>
+   <td>0.27</td>
+  <td>0.27099</td>
+  <td>0.27099</td>
  </tr>
  <tr>
   <td>55</td>
@@ -339,9 +342,9 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
   <td>55</td>
    <td>110</td>
    <td>268</td>
-   <td>0.16</td>
-  <td>0.3208</td>
-  <td>0.3208</td>
+   <td>0.27</td>
+  <td>0.271052</td>
+  <td>0.271052</td>
  </tr>
  <tr>
   <td>55</td>
@@ -365,7 +368,7 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 ![p1 c1 2 1u](https://github.com/user-attachments/assets/24b85e26-4049-42de-b135-af96011a506c)<br>
 
 
-
+<br><br><br><br>
 
 
 ## Part B
@@ -389,8 +392,9 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 <p>The DC analysis of this CMOS differential amplifier determines the biasing conditions and operating points of the transistors. The tail current source (I1) sets a stable bias current, which splits between the NMOS differential pair (M2 and M6) based on the input voltage difference. The PMOS transistors (M1 and M3) act as active loads, operating in saturation to provide high impedance and enhance gain. A current mirror (M4 and M5) ensures balanced operation by maintaining equal current flow through M2 and M6. The DC voltage at the output node (Vout) is influenced by the drain voltage of M1 and M3, ensuring proper signal amplification while rejecting common-mode noise.</p>
 
 <p>MOSFET Length-180nm</p>
-<p>Width of M2 and M6-27.008um</p>
-<p>V<sub>out</sub>=0.6432V/p><br>
+<p>Width of M2=27.1um and M6-27.5um</p>
+<p>Width of all other mosfets is 55um</p>
+<p>V<sub>out</sub>=0.6415V/p><br>
 
 ## Transient Analysis<br>
 
@@ -400,7 +404,7 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 
 
 <p>The transient analysis of this CMOS differential amplifier examines its time-domain response to varying input signals. The differential inputs (V1 and V2) are sinusoidal signals with a 180-degree phase shift, causing the NMOS differential pair (M2 and M6) to alternately conduct. This variation is mirrored in the current through the PMOS active loads (M1 and M3), generating an amplified output voltage (Vout). The response time and stability of the circuit depend on the biasing current (I1) and transistor parameters. The transient analysis helps evaluate signal amplification, phase shift, and dynamic performance, ensuring proper operation for analog signal processing applications.</p>
-<p>From above simulation V<sub>out</sub> is 670mV. </p><br>
+<p>From above simulation V<sub>out</sub> is 668mV. </p><br>
 
 ## AC Analysis
 
@@ -416,6 +420,39 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 The second circuit operates with a 1:1 aspect ratio, meaning the mirrored current is expected to be equal to the reference current. Here, the reference current (I1) is 0.27 mA, and the circuit runs under the same 1.8V supply. Since both transistors have identical dimensions, the output current should ideally match the reference current. This configuration ensures a direct and accurate current replication, minimizing deviations caused by mismatched transistors. The DC operating point analysis shows power dissipation and current flow, verifying proper circuit function.
 
 The third circuit is an advanced current mirror setup similar to the previous configurations but with an active load and differential pair configuration. This design operates with a 2.2V supply and includes multiple MOSFETs configured for differential input operation. The AC and transient analysis results highlight an improved gain and better frequency response due to the active load implementation. The circuit is designed to handle differential signals, improving noise rejection and making it more efficient for analog signal processing applications.
+1. First Circuit (1:2 Aspect Ratio Current Mirror)
+The first circuit uses a 1:2 aspect ratio, meaning the output current should be twice the reference current.  
+The reference current (I1) is set to 0.16 mA, and it operates with a 1.8V supply.  
+The output current is expected to be 0.32 mA (twice the reference current), due to the transistor sizing.
+
+ 2. Second Circuit (1:1 Aspect Ratio Current Mirror)
+The second circuit uses a 1:1 aspect ratio, meaning the output current is expected to exactly match the reference current.  
+The reference current (I1) is 0.27 mA, and the circuit is also powered by a 1.8V supply.  
+The output current should ideally be 0.27 mA, matching the reference current precisely.
+
+ 3. Third Circuit (Differential Pair with Active Load)
+The third circuit is an advanced current mirror using a differential pair with an active load.  
+It operates with a 2.2V supply and  is designed to handle differential signals, improving noise rejection.  
+The configuration improves both gain and frequency response, making it suitable for analog signal processing.
+
+### Key Takeaways:
+- The **1:2 ratio** increases the current output.
+- The **1:1 ratio** ensures the output current matches the reference current exactly.
+- The **differential pair** with an active load improves amplification and reduces noise.
+
+## Typical Results for Current Mirror Circuits
+
+### For the 1:2 current mirror with I1 = 0.16 mA:
+- **Reference Current (I1):** 0.16 mA
+- **Output Current (Io):** 0.32 mA (doubled due to aspect ratio)
+
+### For the 1:1 current mirror with I1 = 0.27 mA:
+- **Reference Current (I1):** 0.27 mA
+- **Output Current (Io):** 0.27 mA (same as the reference)
+
+### For the differential pair with active load:
+- Improved **gain** and **frequency response** due to the active load.
+- Better **noise rejection** when handling differential input signals.
 
 Overall, the different aspect ratios affect the output current, gain, and power dissipation. The 1:2 ratio scales the current, the 1:1 ratio maintains accurate mirroring, and the differential configuration with an active load improves amplification and response characteristics. These findings are crucial for designing precise and efficient analog circuits in modern integrated circuit applications.</p>
 <br>
