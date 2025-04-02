@@ -54,9 +54,12 @@
 For a 1:1 current mirror, both transistors are designed to be identical, meaning the output current should ideally match the reference current. The circuit’s small-signal parameters, such as transconductance (𝑔m ) and output conductance (g ds ), determine how the circuit reacts to small variations in the input signal.</p>
 
 ![p1 c1 1 ac analysis](https://github.com/user-attachments/assets/d4c72c82-aa2c-4363-8d79-32b9057f7d6a)<br><br>
-![p1 c1 1 max](https://github.com/user-attachments/assets/4393ee65-64c4-43b6-b3a2-5abdcc3d6df2)
+![p1 c1 1 max](https://github.com/user-attachments/assets/4393ee65-64c4-43b6-b3a2-5abdcc3d6df2)<br><br>
 
-<p>The gain from above simulation is 29.45d<sub>B</sub>.</p>
+<p>The gain from above simulation is 29.45d<sub>B</sub>.</p><br>
+
+![p1 c1 1 band](https://github.com/user-attachments/assets/2c2db42a-2713-4867-ac66-bb87c54278b3)<br><br>
+
 <p>The 3d<sub>B</sub> gain is 26.45 .</p>
 
 ## 1:1 aspect ratio.
@@ -409,10 +412,15 @@ In a 1:2 aspect ratio current mirror, the output transistor is sized twice as la
 ## AC Analysis
 
 ![Screenshot 2025-04-02 223138](https://github.com/user-attachments/assets/eda2e4c3-8bf0-4a2a-a77d-aa2f31cb4011)
-![Screenshot 2025-04-02 223813](https://github.com/user-attachments/assets/2c932859-4885-428e-a1a5-432eb72bb605)
 
 
 <p>The AC analysis of this CMOS differential amplifier, as shown in the provided frequency response plot, evaluates the gain and phase characteristics over a wide frequency range. The Bode plot displays the gain (in dB) and phase (in degrees) of the output voltage \( V_{out} \). At low frequencies, the amplifier maintains a relatively stable gain before experiencing a gradual roll-off at higher frequencies due to parasitic capacitances and transistor limitations. The phase shift transitions from 0° at low frequencies to -180° at high frequencies, indicating the frequency-dependent behavior of the amplifier. The -3dB bandwidth, observed around several MHz, defines the effective operating range of the circuit. This analysis helps in determining the amplifier’s suitability for high-frequency applications by assessing its gain stability and phase response over a broad spectrum.</p>
+
+# maximum gain
+
+![Screenshot 2025-04-02 223813](https://github.com/user-attachments/assets/2c932859-4885-428e-a1a5-432eb72bb605)
+![Screenshot 2025-04-02 231810](https://github.com/user-attachments/assets/9ac18369-340e-45aa-973e-63ad39946d57)
+<p>From above simulation the gain is44473<sub>B</sub> and the 3d<sub>B</sub> gain is 1.4979</p>
 
 ## Result
 <p>The first circuit demonstrates a current mirror with a 1:2 aspect ratio, where the width-to-length ratio of the transistors is adjusted to control the mirrored current. The reference current (I1) is set to 0.16 mA, and the circuit is biased with a 1.8V supply. The AC analysis setup indicates that the frequency response of the circuit is being analyzed, and transient simulations help observe the dynamic behavior. The output current is expected to be twice the reference current due to the aspect ratio difference. This design ensures an amplified current while maintaining stability, making it suitable for circuits requiring higher output currents while referencing a smaller bias current.
@@ -474,6 +482,8 @@ From the above experimental observations, it is evident that the aspect ratio of
    - The choice of aspect ratio and circuit configuration depends on the application requirements—whether current amplification, precision, or differential operation is the primary goal.  
    - Mismatches in transistor characteristics, process variations, and temperature changes may introduce small errors in current mirroring, which need to be considered in practical implementations.  
 <br>
-### Conclusion:  
+
+## Conclusion:  
+
 The experiments confirm that the aspect ratio of transistors directly influences current mirroring  accuracy and gain. The 1:2 ratio provides current amplification, while the 1:1 ratio ensures accurate mirroring. The differential current mirror with an active load improves frequency response and gain, making it ideal for advanced analog applications. These findings are essential for designing efficient current mirrors in analog IC design.<br><br><br>
 
